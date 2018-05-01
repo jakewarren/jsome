@@ -24,6 +24,19 @@ go get github.com/jakewarren/jsome
 
 ## Usage
 
+```
+Usage: jsome [<flags>] [FILE]
+
+Example:
+	jsome file.json
+	cat file.json | jsome 
+
+Optional flags:
+
+  -h, --help   display help
+
+```
+
 ## Acknowledgements
 
 [Javascipt/Jsome](https://github.com/Javascipt/Jsome) - for inspiration of the tool, and for the name I shamelessly copied  
