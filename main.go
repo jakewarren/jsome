@@ -36,7 +36,6 @@ func main() {
 
 	checkError("error acquiring input", err)
 
-
 	prettyPrint(r)
 
 }
@@ -64,7 +63,7 @@ func prettyPrint(data io.Reader) {
 	// colorized output is written to dst
 	dst := &bytes.Buffer{}
 	err := f.Format(dst, []byte(b))
-	checkError("error colorizing JSON",err)
+	checkError("error colorizing JSON", err)
 
 	// print colorized output to stdout
 	fmt.Println(dst.String())
@@ -105,7 +104,7 @@ func openStdinOrFile() (io.Reader, error) {
 	return os.Stdin, err
 }
 
-func checkError(message string,err error) {
+func checkError(message string, err error) {
 	if err != nil {
 		log.WithError(err).Fatal(message)
 	}
