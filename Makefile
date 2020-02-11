@@ -18,3 +18,6 @@ install: clean
 
 clean: 
 	@go clean -i
+
+test:
+	@go test -v -race ./...
