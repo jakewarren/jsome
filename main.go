@@ -15,7 +15,6 @@ import (
 )
 
 func main() {
-
 	displayHelp := pflag.BoolP("help", "h", false, "display help")
 
 	pflag.Parse()
@@ -26,10 +25,10 @@ func main() {
 		os.Exit(0)
 	}
 
-	//human-friendly CLI output
+	// human-friendly CLI output
 	log.SetHandler(cli.New(os.Stderr))
 
-	//set the logging level
+	// set the logging level
 	log.SetLevel(log.WarnLevel)
 
 	r, err := openStdinOrFile()
@@ -37,7 +36,6 @@ func main() {
 	checkError("error acquiring input", err)
 
 	prettyPrint(r)
-
 }
 
 func prettyPrint(data io.Reader) {
@@ -71,7 +69,6 @@ func prettyPrint(data io.Reader) {
 
 // print custom usage instead of the default provided by pflag
 func displayUsage() {
-
 	fmt.Printf("Usage: jsome [<flags>] [FILE]\n\n")
 	fmt.Printf("Example:\n\tjsome file.json\n")
 	fmt.Printf("\tcat file.json | jsome \n\n")
@@ -81,7 +78,6 @@ func displayUsage() {
 
 // openStdinOrFile reads from stdin or a file based on what input the user provides
 func openStdinOrFile() (io.Reader, error) {
-
 	// try to open a file if exists
 	if len(pflag.Args()) == 1 {
 		r, err := os.Open(pflag.Arg(0))
