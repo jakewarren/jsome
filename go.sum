@@ -32,6 +32,8 @@ github.com/mattn/go-isatty v0.0.8/go.mod h1:Iq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hd
 github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b/go.mod h1:01TrycV0kFyexm33Z7vhZRXopbI8J3TDReVlkTgMUxE=
 github.com/nwidger/jsoncolor v0.1.0 h1:Uy5LfZLYQfCxujGL7fPaKFRrr9ZdnLq+BVh0ytYRv+A=
 github.com/nwidger/jsoncolor v0.1.0/go.mod h1:GYFm0zZgTNeoK1QxuIofRDasy2ibmaJZhZLzwsMXUF4=
+github.com/nwidger/jsoncolor v0.2.1 h1:BG24Skvk8ZVbwSuXJhL6maaaQTqIGeWbCuTuKaFTLdU=
+github.com/nwidger/jsoncolor v0.2.1/go.mod h1:GYFm0zZgTNeoK1QxuIofRDasy2ibmaJZhZLzwsMXUF4=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v1.5.0/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
