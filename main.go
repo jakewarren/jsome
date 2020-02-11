@@ -62,7 +62,7 @@ func prettyPrint(data io.Reader) {
 
 	// colorized output is written to dst
 	dst := &bytes.Buffer{}
-	err := f.Format(dst, []byte(b))
+	err := f.Format(dst, b)
 	checkError("error colorizing JSON", err)
 
 	// print colorized output to stdout
