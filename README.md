@@ -1,5 +1,5 @@
 # jsome
-[![Build Status](https://travis-ci.org/jakewarren/jsome.svg?branch=master)](https://travis-ci.org/jakewarren/jsome/)
+[![Build Status](https://github.com/jakewarren/jsome/workflows/lint/badge.svg)](https://github.com/jakewarren/jsome/actions)
 [![GitHub release](http://img.shields.io/github/release/jakewarren/jsome.svg?style=flat-square)](https://github.com/jakewarren/jsome/releases])
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/jsome/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jakewarren/jsome)](https://goreportcard.com/report/github.com/jakewarren/jsome)
